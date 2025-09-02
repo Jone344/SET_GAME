@@ -14,6 +14,10 @@ class ViewModel: ObservableObject {
         model.cards
     }
     
+    func shuffle() {
+        model.shuffle()
+    }
+    
     var discardPile: [Set.Card] {
         model.discardedCards
     }

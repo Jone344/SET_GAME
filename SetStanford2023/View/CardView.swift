@@ -44,6 +44,8 @@ struct CardView: View {
             Group {
                 base.fill(.white)
                 base.strokeBorder(lineWidth: 2)
+                
+                
                 if card.isSelected {
                     base.strokeBorder( .blue, lineWidth: 5)
                 }

@@ -68,6 +68,11 @@ struct Set {
 
         deal(numberOfCards: 12)
     }
+    
+    
+    mutating func shuffle() {
+        dealedCards.shuffle()
+    }
 
     mutating func deal(numberOfCards: Int) {
         guard !cards.isEmpty else { return }
